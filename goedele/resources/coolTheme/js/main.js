@@ -1,0 +1,1 @@
+$=jQuery.noConflict();$(document).ready(function(){var e=document.querySelector(".masonry-set");imagesLoaded(e,function(){new Masonry(e,{itemSelector:".masonry-card"}).resize()})});
