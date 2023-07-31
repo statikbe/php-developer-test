@@ -5,11 +5,14 @@ Using NASA’s “Astronomy Picture of the Day” API, build a webpage that list
 ### Basic
 
 :white_check_mark: An overview page that lists the picture of the day for the last 30 days.
+
 :white_check_mark: A detail page with the date, picture and description for each picture.
 
 ### Extra's
 :white_check_mark: Save the API response to a database and use that to build your webpage.
+
 :white_check_mark: Make it possible to like a picture and show the like count per picture.
+
 :white_check_mark: Sort the pictures by number of likes.
 
 ## Getting started
@@ -30,6 +33,9 @@ Feel free to use whichever framework you feel most comfortable with (but it need
 
 # Bonus points
 :white_check_mark: Make it look good
+
 :white_check_mark: Make it as object-oriented as possible
+
 :white_check_mark: Manage your dependencies with Composer
+
 :white_check_mark: If you have frontend assets, use a build tool like webpack or gulp to compile them
