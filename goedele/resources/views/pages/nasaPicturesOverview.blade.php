@@ -4,7 +4,7 @@
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
     @push('scripts')
-        <script type="text/javascript" src="../resources/coolTheme/js/main.js"></script>
+        <script type="text/javascript" src="{{URL::asset('/coolTheme/js/main.js')}}"></script>
     @endpush
 
     <div class="title my-5 text-center"><h1>{{$title}}</h1></div>
