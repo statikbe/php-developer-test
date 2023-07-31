@@ -24,8 +24,10 @@ Your repo needs to include at minimum anything required to get the app working. 
 
 :arrow_forward: Instructions:
 - Copy folder called 'goedele' to file system
-- Create db named 'laravel_nasa', with UN = 'statik', PW = 'veryveryverydifficultpassword'. (or change db parameters in .env if you want to use different credentials)
+- Create db named 'laravel_nasa', with UN = 'statik', PW = 'veryveryverydifficultpassword'. 
 - import sql you find inside folder 'db' into newly created db  
+- rename .env.example into .env
+- in .env: change NASA api key into your own. (And change db parameters if they differ from what was asked above)
 - surf to <base_path>/goedele/public for the home page
 - enjoy this amazing app
 
